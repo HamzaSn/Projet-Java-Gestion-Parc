@@ -1,0 +1,22 @@
+- the main difference between HashSet And ArrayList is that array list
+  maintain the order of the elements.
+
+- ArrayList allows duplicates items in collection, where hashSet only allow unique values
+
+- HashSet does not have get(index)
+
+- to access HashSet elements in a loop we have a couple of methods :
+
+-  for(Type elem : HashSet){
+        elem.
+
+        // note that you cannot modify or remove elements when iterating ( CocurrentModification of Collection )
+}
+
+- Iterator
+
+   Iterator it = HashSet.Iterator()
+   while(it.hasNext() ){
+    elem =  it.next();
+    then you can access hashSet Methods by elem.method()
+   }
